@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.loading-timer {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    margin: 20px auto;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item {
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.masked {
+    background: black;
+    font-size: 0;
+}
+.opened {
+    background: transparent;
+    color: red;
+    font-size: 20px;
+}
+.NotAllowed {
+    cursor: not-allowed;
+    pointer-events: none;
+}
